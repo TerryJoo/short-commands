@@ -38,7 +38,7 @@ printf "
 # 
 # Included: git aliases
 export SHORT_COMMANDS_DIR=\"%s\"
-[ -s \"$SHORT_COMMANDS_DIR/index.sh\" ] && \. \"$SHORT_COMMANDS_DIR/index.sh\" 
+[ -s \"\$SHORT_COMMANDS_DIR/index.sh\" ] && \. \"\$SHORT_COMMANDS_DIR/index.sh\" 
 " $(pwd) >> "$HOME/.bashrc"
 
 source $HOME/.bashrc
